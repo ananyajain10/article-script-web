@@ -1,0 +1,56 @@
+/* Grid for cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* Preview card */
+.article-preview-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-preview-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+.article-preview-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #111827;
+}
+
+.article-preview-card p {
+  font-size: 0.95rem;
+  color: #4b5563;
+  flex-grow: 1;
+}
+
+.read-more {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* Back button */
+.back-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 0;
+}
