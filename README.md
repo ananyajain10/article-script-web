@@ -51,6 +51,11 @@ GOOGLE_CX=your_search_engine_id
 2. Node script fetches latest article, rewrites it using references and LLM, and creates a new article.  
 3. React frontend displays all articles and allows reading full content.
 
+<img width="1461" height="260" alt="Screenshot 2025-12-24 014609" src="https://github.com/user-attachments/assets/56b5df91-39d4-45e9-aa5e-d9a1e30ed221" />
+<img width="1906" height="903" alt="Screenshot 2025-12-24 024631" src="https://github.com/user-attachments/assets/e57dae1d-197d-47aa-bf75-ce7694bc9c09" />
+<img width="1904" height="949" alt="image" src="https://github.com/user-attachments/assets/11cf7a85-ae53-4739-8e81-f7acb1d56b41" />
+
+
 ## Requirements
 
 Node.js  
@@ -59,3 +64,4 @@ PHPMYADMMIN
 MySQL database  
 Google Custom Search API key  
 Google Gemini API key
+
